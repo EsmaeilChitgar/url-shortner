@@ -24,10 +24,6 @@ type URLResponse struct {
 	ShortURL string `json:"shortUrl" validate:"required"`
 }
 
-type URLShortner struct {
-	urls map[string]string
-}
-
 var urls = make(map[string]string)
 
 func (handler *ShortnerHandler) DoShort() echo.HandlerFunc {
