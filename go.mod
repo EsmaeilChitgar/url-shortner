@@ -4,7 +4,9 @@ go 1.23.4
 
 require (
 	github.com/go-playground/validator/v10 v10.24.0
+	github.com/julienschmidt/httprouter v1.3.0
 	github.com/labstack/echo/v4 v4.13.3
+	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/stretchr/testify v1.10.0
 )
 

@@ -13,7 +13,8 @@ import (
 func main() {
 	server := httpq.NewServer()
 
-	server.Serve()
+	// server.Serve()
+	server.Serve2()
 
 	go func() {
 		if err := server.Start(":8080"); err != nil {
