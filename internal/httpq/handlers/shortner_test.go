@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"strings"
 	"testing"
-	"url-shortner-module/internal/http/handlers"
-	"url-shortner-module/internal/http/validators"
+	"url-shortner-module/internal/httpq/handlers"
+	"url-shortner-module/internal/httpq/validators"
 
 	"github.com/go-playground/validator/v10"
 

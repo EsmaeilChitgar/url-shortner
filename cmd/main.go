@@ -7,11 +7,11 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
-	"url-shortner-module/internal/http"
+	"url-shortner-module/internal/httpq"
 )
 
 func main() {
-	server := http.NewServer()
+	server := httpq.NewServer()
 
 	server.Serve()
 
